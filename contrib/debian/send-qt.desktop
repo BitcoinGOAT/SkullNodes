@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SkullNodes
+Comment=SkullNodes P2P Cryptocurrency
+Comment[fr]=SkullNodes, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SkullNodes, eşten eşe kriptografik sanal para birimi
+Exec=send-qt %u
+Terminal=false
+Type=Application
+Icon=send128
+MimeType=x-scheme-handler/send;
+Categories=Office;Finance;
