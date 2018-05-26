@@ -1,18 +1,16 @@
-SEND Core integration/staging repository
+SkullNodes Core integration/staging repository
 =====================================
 
-SEND is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
+SkullNodes is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
 - Anonymized transactions using coin mixing technology, we call it _Coin Mixing_.
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _FastSend_.
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode technology used to secure the network and provide the above features, each Masternode is secured
-with collateral of 6250 SEND
-
-More information at [http://socialsend.io](http://socialsend.io)
+with collateral of 10000 SKX
 
 ### Coin Specs
 <table>
 	<tr>
-		<td>Ticker Symbol</td><td>SEND</td>
+		<td>Ticker Symbol</td><td>SKX</td>
 	</tr>
 	<tr>
 		<td>Algorithm</td><td>Quark</td>
@@ -27,16 +25,15 @@ More information at [http://socialsend.io](http://socialsend.io)
 		<td>Difficulty Retargeting</td><td>Every Block</td>
 	</tr>
 	<tr>
-		<td>Max Coin Supply (PoS)</td><td>150 Mil SEND</td>
+		<td>Max Coin Supply (PoS)</td><td>150 Mil SKX</td>
 	</tr>
 	<tr>
-		<td>Premine/Initial Supply</td><td>30 Mil SEND*</td>
+		<td>Premine/Initial Supply</td><td>500 kSKX</td>
 	</tr>
 </table>
 
 *First 1000 Blocks PoW. 1001 - Infinite Blocks PoS only.
 
-**30Mil SEND Premined for Swap of existing PIE Chain 28 Million + Pre-Sale. 
 
 ### PoS/PoW Block Details
 <table>
@@ -51,7 +48,7 @@ More information at [http://socialsend.io](http://socialsend.io)
 ### Staking Methods
 <table>
 	<tr>
-		<td>Masternodes</td><td>Yes - 6250 Send Required</td>
+		<td>Masternodes</td><td>Yes - 10000 SKX Required</td>
 	</tr>
 	<tr>
 		<td>Wallet Staking</td><td>Yes - 1 to infinite Send</td>
