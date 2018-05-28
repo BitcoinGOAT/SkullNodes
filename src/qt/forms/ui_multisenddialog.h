@@ -126,8 +126,8 @@ public:
         multiSendAddressEdit->setToolTip(QString());
 #endif // QT_NO_TOOLTIP
         multiSendAddressEdit->setPlaceholderText(QApplication::translate("MultiSendDialog", "Enter Address to Send to", Q_NULLPTR));
-        label_2->setText(QApplication::translate("MultiSendDialog", "MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SKX addresses after it matures.\n"
-"To Add: enter percentage to give and SKX address to add to the MultiSend vector.\n"
+        label_2->setText(QApplication::translate("MultiSendDialog", "MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SkullNodes addresses after it matures.\n"
+"To Add: enter percentage to give and SkullNodes address to add to the MultiSend vector.\n"
 "To Delete: Enter address to delete and press delete.\n"
 "MultiSend will not be activated unless you have clicked Activate", Q_NULLPTR));
         message->setText(QString());
