@@ -1,6 +1,6 @@
 [Protocol]
 exec=skullnodes-qt '%u'
-protocol=send
+protocol=skullnodes
 input=none
 output=none
 helper=true

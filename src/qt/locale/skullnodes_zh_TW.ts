@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your SEND addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 SEND 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your SKX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 SKX 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your SEND addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 SEND 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your SKX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 SKX 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,16 +164,16 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>SEND will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SENDs from being stolen by malware infecting your computer.</source>
-        <translation>SEND 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 SEND 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>SkullNodes will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKXs from being stolen by malware infecting your computer.</source>
+        <translation>SkullNodes 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 SKX 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>確定要加密你的錢包?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SEND&lt;/b&gt;!</source>
-        <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(SEND)&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKX&lt;/b&gt;!</source>
+        <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(SKX)&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,8 +235,8 @@
         <translation>位址:</translation>
     </message>
     <message>
-        <source>The SEND address to sign the message with</source>
-        <translation>對訊息簽名的 SEND 位址</translation>
+        <source>The SKX address to sign the message with</source>
+        <translation>對訊息簽名的 SKX 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,8 +267,8 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SEND address</source>
-        <translation>使用簽章來證明你是該  SEND 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this SKX address</source>
+        <translation>使用簽章來證明你是該  SKX 位址的擁有者,</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>The SEND address the message was signed with</source>
-        <translation>此訊息之 SEND 位址已簽章於</translation>
+        <source>The SKX address the message was signed with</source>
+        <translation>此訊息之 SKX 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SEND address</source>
-        <translation>驗證訊息以確保該  SEND 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified SKX address</source>
+        <translation>驗證訊息以確保該  SKX 位址已被簽章</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -582,12 +582,12 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Core</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Core</translation>
     </message>
     <message>
-        <source>Send coins to a SEND address</source>
-        <translation>送出錢幣到 SEND 地址</translation>
+        <source>Send coins to a SKX address</source>
+        <translation>送出錢幣到 SKX 地址</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and send: URIs)</source>
@@ -602,24 +602,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About SEND Core</source>
-        <translation>&amp;關於 SEND Core</translation>
+        <source>&amp;About SkullNodes Core</source>
+        <translation>&amp;關於 SkullNodes Core</translation>
     </message>
     <message>
-        <source>Show information about SEND Core</source>
-        <translation>顯示 SEND Core 相關資訊</translation>
+        <source>Show information about SkullNodes Core</source>
+        <translation>顯示 SkullNodes Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for SEND</source>
-        <translation>修改 SEND 設定</translation>
+        <source>Modify configuration options for SKX</source>
+        <translation>修改 SKX 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your SEND addresses to prove you own them</source>
-        <translation>使用你的 SEND 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your SKX addresses to prove you own them</source>
+        <translation>使用你的 SKX 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified SEND addresses</source>
-        <translation>驗證訊息簽章與 SEND 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified SKX addresses</source>
+        <translation>驗證訊息簽章與 SKX 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the SEND Core help message to get a list with possible SEND command-line options</source>
-        <translation>顯示 SEND Core 幫助訊息以取得 SEND 命令列表選項</translation>
+        <source>Show the SkullNodes Core help message to get a list with possible SKX command-line options</source>
+        <translation>顯示 SkullNodes Core 幫助訊息以取得 SKX 命令列表選項</translation>
     </message>
     <message>
-        <source>SEND Core client</source>
-        <translation>SEND Core 客戶端</translation>
+        <source>SkullNodes Core client</source>
+        <translation>SkullNodes Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Core</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Core</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Core</translation>
     </message>
     </context>
 <context>
@@ -817,8 +817,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The SEND address to sign the message with</source>
-        <translation>對訊息簽名的 SEND 位址</translation>
+        <source>The SKX address to sign the message with</source>
+        <translation>對訊息簽名的 SKX 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -841,16 +841,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SEND address</source>
-        <translation>使用簽章來證明你是該  SEND 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this SKX address</source>
+        <translation>使用簽章來證明你是該  SKX 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The SEND address the message was signed with</source>
-        <translation>此訊息之 SEND 位址已簽章於</translation>
+        <source>The SKX address the message was signed with</source>
+        <translation>此訊息之 SKX 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SEND address</source>
-        <translation>驗證訊息以確保該  SEND 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified SKX address</source>
+        <translation>驗證訊息以確保該  SKX 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -888,8 +888,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Core</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Core</translation>
     </message>
     </context>
 <context>
@@ -952,6 +952,6 @@
     </message>
     </context>
 <context>
-    <name>send-core</name>
+    <name>skullnodes-core</name>
     </context>
 </TS>

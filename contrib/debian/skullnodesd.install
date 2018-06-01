@@ -1,2 +1,2 @@
-usr/local/bin/sendd usr/bin
-usr/local/bin/send-cli usr/bin
+usr/local/bin/skullnodesd usr/bin
+usr/local/bin/skullnodes-cli usr/bin

@@ -164,6 +164,6 @@
     </message>
     </context>
 <context>
-    <name>send-core</name>
+    <name>skullnodes-core</name>
     </context>
 </TS>

@@ -150,7 +150,7 @@
         <translation>Node</translation>
     </message>
     <message>
-        <source>&amp;Send</source>
+        <source>&amp;SKX</source>
         <translation>&amp;Enviar</translation>
     </message>
     <message>
@@ -270,12 +270,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Core</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Core</translation>
     </message>
     <message>
-        <source>&amp;About SEND Core</source>
-        <translation>&amp;Sobre SEND Core</translation>
+        <source>&amp;About SkullNodes Core</source>
+        <translation>&amp;Sobre SkullNodes Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -468,12 +468,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Core</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Core</translation>
     </message>
     <message>
-        <source>About SEND Core</source>
-        <translation>Sobre SEND Core</translation>
+        <source>About SkullNodes Core</source>
+        <translation>Sobre SkullNodes Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -491,12 +491,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to SEND Core.</source>
-        <translation>Benvingut a SEND Core.</translation>
+        <source>Welcome to SkullNodes Core.</source>
+        <translation>Benvingut a SkullNodes Core.</translation>
     </message>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Core</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1048,8 +1048,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Core</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1200,7 +1200,7 @@
     </message>
     </context>
 <context>
-    <name>send-core</name>
+    <name>skullnodes-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

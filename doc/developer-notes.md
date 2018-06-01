@@ -118,12 +118,12 @@ to see it.
 
 **testnet mode**
 
-Run with the -testnet option to run with "play SENDs (tSEND)" on the test network, if you
+Run with the -testnet option to run with "play SkullNodess (tSkullNodes)" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 **DEBUG_LOCKORDER**
 
-SEND Core is a multithreaded application, and deadlocks or other multithreading bugs
+SkullNodes Core is a multithreaded application, and deadlocks or other multithreading bugs
 can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of which locks
 are held, and adds warnings to the debug.log file if inconsistencies are detected.
@@ -158,13 +158,13 @@ Threads
 
 - ThreadMapPort : Universal plug-and-play startup/shutdown
 
-- ThreadSocketHandler : Sends/Receives data from peers on port 8333.
+- ThreadSocketHandler : SkullNodess/Receives data from peers on port 8333.
 
 - ThreadOpenAddedConnections : Opens network connections to added nodes.
 
 - ThreadOpenConnections : Initiates new connections to peers.
 
-- ThreadMessageHandler : Higher-level message handling (sending and receiving).
+- ThreadMessageHandler : Higher-level message handling (skullnodesing and receiving).
 
 - DumpAddresses : Dumps IP addresses of nodes to peers.dat.
 
@@ -182,7 +182,7 @@ Ignoring IDE/editor files
 In closed-source environments in which everyone uses the same IDE it is common
 to add temporary files it produces to the project-wide `.gitignore` file.
 
-However, in open source software such as SEND Core, where everyone uses
+However, in open source software such as SkullNodes Core, where everyone uses
 their own editors/IDE/tools, it is less common. Only you know what files your
 editor produces and this may change from version to version. The canonical way
 to do this is thus to create your local gitignore. Add this to `~/.gitconfig`:
@@ -212,9 +212,10 @@ Development guidelines
 ============================
 
 A few non-style-related recommendations for developers, as well as points to
-pay attention to for reviewers of SEND Core code.
+pay attention to for reviewers of SkullNodes Core code.
 
-General SEND Core
+General SkullNodes
+SkullNodes Core
 ----------------------
 
 - New features should be exposed on RPC first, then can be made available in the GUI
@@ -324,7 +325,7 @@ Strings and formatting
 
 - For `strprintf`, `LogPrint`, `LogPrintf` formatting characters don't need size specifiers
 
-  - *Rationale*: SEND Core uses tinyformat, which is type safe. Leave them out to avoid confusion
+  - *Rationale*: SkullNodes Core uses tinyformat, which is type safe. Leave them out to avoid confusion
 
 Threads and synchronization
 ----------------------------
@@ -418,7 +419,7 @@ Git and github tips
 
         [remote "upstream-pull"]
                 fetch = +refs/pull/*:refs/remotes/upstream-pull/*
-                url = git@github.com:SEND-Project/SEND.git
+                url = git@github.com/BitcoinGOAT/SkullNodes.git
 
   This will add an `upstream-pull` remote to your git repository, which can be fetched using `git fetch --all`
   or `git fetch upstream-pull`. Afterwards, you can use `upstream-pull/NUMBER/head` in arguments to `git show`,

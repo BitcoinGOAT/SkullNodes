@@ -62,12 +62,12 @@
         <translation>Адреса отримання</translation>
     </message>
     <message>
-        <source>These are your SEND addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Це ваша SEND-адреса для надсилання платежів. Завжди перевіряйте суму та адресу одержувача перед відправленням монет.</translation>
+        <source>These are your SKX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Це ваша SKX-адреса для надсилання платежів. Завжди перевіряйте суму та адресу одержувача перед відправленням монет.</translation>
     </message>
     <message>
-        <source>These are your SEND addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Це ваші SEND адреси для отримання платежів. Для кожної транзакції рекомендується використовувати нову адресу одержувача.</translation>
+        <source>These are your SKX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Це ваші SKX адреси для отримання платежів. Для кожної транзакції рекомендується використовувати нову адресу одержувача.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Підтвердження шифрування гаманця</translation>
     </message>
     <message>
-        <source>SEND will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SENDs from being stolen by malware infecting your computer.</source>
-        <translation>SEND зараз закриється, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші SEND'и від крадіжки зловмисним програмним забезпеченням, що заражає ваш комп'ютер.</translation>
+        <source>SkullNodes will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKXs from being stolen by malware infecting your computer.</source>
+        <translation>SkullNodes зараз закриється, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші SKX'и від крадіжки зловмисним програмним забезпеченням, що заражає ваш комп'ютер.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ви впевнені, що хочете зашифрувати Ваш гаманець?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SEND&lt;/b&gt;!</source>
-        <translation>Попередження: Якщо після шифрування гаманця Ви &lt;b&gt;загубите кодове слово, то ви втратите всі Ваші SEND'и&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SkullNodes&lt;/b&gt;!</source>
+        <translation>Попередження: Якщо після шифрування гаманця Ви &lt;b&gt;загубите кодове слово, то ви втратите всі Ваші SKX'и&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -364,6 +364,6 @@
     </message>
     </context>
 <context>
-    <name>send-core</name>
+    <name>skullnodes-core</name>
     </context>
 </TS>

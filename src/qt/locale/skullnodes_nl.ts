@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your SEND addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw SENDadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <source>These are your SKX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw SKXadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your SEND addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw SENDadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your SKX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw SKXadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>SEND will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SENDs from being stolen by malware infecting your computer.</source>
-        <translation>SEND zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw SENDs stelen.</translation>
+        <source>SkullNodes will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKXs from being stolen by malware infecting your computer.</source>
+        <translation>SkullNodes zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw SKXs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SEND&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW SEND VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKX&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW SKX VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,16 +231,16 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a Send Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een SEND adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <source>Enter a SKX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een SKX adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The SEND address to sign the message with</source>
-        <translation>Het SEND adres om het bericht met te ondertekenen</translation>
+        <source>The SKX address to sign the message with</source>
+        <translation>Het SKX adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SEND address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het SEND adres bezit</translation>
+        <source>Sign the message to prove you own this SKX address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het SKX adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,12 +295,12 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The SEND address the message was signed with</source>
-        <translation>Het SEND adres waarmee het bericht was ondertekend</translation>
+        <source>The SKX address the message was signed with</source>
+        <translation>Het SKX adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SEND address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde SEND adres</translation>
+        <source>Verify the message to ensure it was signed with the specified SKX address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde SKX adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,12 +590,12 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Kern</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Kern</translation>
     </message>
     <message>
-        <source>Send coins to a SEND address</source>
-        <translation>Verstuur munten naar een SEND adres</translation>
+        <source>Send coins to a SKX address</source>
+        <translation>Verstuur munten naar een SKX adres</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and send: URIs)</source>
@@ -610,24 +610,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About SEND Core</source>
-        <translation>&amp;Over SEND Kern</translation>
+        <source>&amp;About SkullNodes Core</source>
+        <translation>&amp;Over SkullNodes Kern</translation>
     </message>
     <message>
-        <source>Show information about SEND Core</source>
-        <translation>Toon informatie over SEND Kern</translation>
+        <source>Show information about SkullNodes Core</source>
+        <translation>Toon informatie over SkullNodes Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for SEND</source>
-        <translation>Wijzig SEND configuratie opties</translation>
+        <source>Modify configuration options for SkullNodes</source>
+        <translation>Wijzig SkullNodes configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your SEND addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw SEND adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your SKX addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw SKX adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified SEND addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde SEND adressen</translation>
+        <source>Verify messages to ensure they were signed with specified SKX addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde SKX adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -757,8 +757,8 @@
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (send.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (send.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skullnodes.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (skullnodes.conf).</translation>
     </message>
 </context>
 <context>
@@ -942,8 +942,8 @@
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid SEND address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig SEND adres.</translation>
+        <source>The entered address "%1" is not a valid SKX address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig SKX adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -964,8 +964,8 @@
         <translation>versie</translation>
     </message>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Kern</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Kern</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -979,8 +979,8 @@
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Kern</translation>
+        <source>Skullnodes Core</source>
+        <translation>SkullNodes Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1426,15 +1426,15 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>SEND Core is shutting down...</source>
-        <translation>SEND Core is aan het afsluiten...</translation>
+        <source>SkullNodes Core is shutting down...</source>
+        <translation>SkullNodes Core is aan het afsluiten...</translation>
     </message>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The SEND address to sign the message with</source>
-        <translation>Het SEND adres om het bericht met te ondertekenen</translation>
+        <source>The SKX address to sign the message with</source>
+        <translation>Het SKX adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1465,16 +1465,16 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SEND address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het SEND adres bezit</translation>
+        <source>Sign the message to prove you own this SKX address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het SKX adres bezit</translation>
     </message>
     <message>
-        <source>The SEND address the message was signed with</source>
-        <translation>Het SEND adres waarmee het bericht was ondertekend</translation>
+        <source>The SKX address the message was signed with</source>
+        <translation>Het SKX adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SEND address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde SEND adres</translation>
+        <source>Verify the message to ensure it was signed with the specified SKX address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde SKX adres</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1512,8 +1512,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Kern</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1660,7 +1660,7 @@
     </message>
     </context>
 <context>
-    <name>send-core</name>
+    <name>skullnodes-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

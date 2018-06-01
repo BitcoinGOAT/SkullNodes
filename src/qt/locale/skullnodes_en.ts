@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your SEND addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your SKX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your SEND addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your SKX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>SEND will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SENDs from being stolen by malware infecting your computer.</source>
+        <source>SkullNodes will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKXs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SEND&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKX&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -318,7 +318,7 @@
     </message>
     <message>
         <location line="-355"/>
-        <source>The SEND address to sign the message with</source>
+        <source>The SKX address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this SEND address</source>
+        <source>Sign the message to prove you own this SKX address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -391,12 +391,12 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>The SEND address the message was signed with</source>
+        <source>The SKX address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Verify the message to ensure it was signed with the specified SEND address</source>
+        <source>Verify the message to ensure it was signed with the specified SKX address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -771,12 +771,12 @@
     <message>
         <location line="-396"/>
         <location line="+831"/>
-        <source>SEND Core</source>
+        <source>SkullNodes Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-652"/>
-        <source>Send coins to a SEND address</source>
+        <source>Send coins to a SKX address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -796,27 +796,27 @@
     </message>
     <message>
         <location line="+29"/>
-        <source>&amp;About SEND Core</source>
+        <source>&amp;About SkullNodes Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about SEND Core</source>
+        <source>Show information about SkullNodes Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for SEND</source>
+        <source>Modify configuration options for SkullNodes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your SEND addresses to prove you own them</source>
+        <source>Sign messages with your SKX addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified SEND addresses</source>
+        <source>Verify messages to ensure they were signed with specified SKX addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -871,17 +871,17 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the SEND Core help message to get a list with possible SEND command-line options</source>
+        <source>Show the SkullNodes Core help message to get a list with possible SkullNodes command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+201"/>
-        <source>SEND Core client</source>
+        <source>SkullNodes Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+190"/>
-        <source>%n active connection(s) to SEND network</source>
+        <source>%n active connection(s) to SKX network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1077,7 +1077,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+473"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (send.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skullnodes.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1456,7 +1456,7 @@ Address: %4
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid SEND address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid SKX address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1512,7 +1512,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>SEND Core</source>
+        <source>SkullNodes Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1523,7 +1523,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>About SEND Core</source>
+        <source>About SkullNodes Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1581,17 +1581,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to SEND Core.</source>
+        <source>Welcome to SkullNodes Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where SEND Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where SkullNodes Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>SEND Core will download and store a copy of the SEND block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>SkullNodes Core will download and store a copy of the SkullNodes block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1606,7 +1606,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-        <source>SEND Core</source>
+        <source>SkullNodes Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1782,8 +1782,8 @@ Address: %4
     </message>
     <message>
         <location line="+16"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SEND addresses after it matures.
-To Add: enter percentage to give and SEND address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SKX addresses after it matures.
+To Add: enter percentage to give and SKX address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -1948,12 +1948,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SEND</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 SKX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SEND</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 SKX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1963,12 +1963,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 SEND to anonymize 10000 SEND</source>
+        <source>This option is the quickest and will cost about ~0.025 SKX to anonymize 10000 SKX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 SEND to anonymize 10000 SEND</source>
+        <source>This option is moderately fast and will cost about 0.05 SKX to anonymize 10000 SKX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1978,7 +1978,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 SEND per 10000 SEND you anonymize.</source>
+        <source>0.1 SKX per 10000 SKX you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1990,17 +1990,17 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-27"/>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SEND&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SkullNodes&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SEND&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SkullNodes&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SEND&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SkullNodes&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2076,7 +2076,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the SEND client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the SKX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2101,12 +2101,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-179"/>
-        <source>Automatically start SEND after logging in to the system.</source>
+        <source>Automatically start SkullNodes after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start SEND on system login</source>
+        <source>&amp;Start SkullNodes on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2126,7 +2126,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+15"/>
-        <source>Amount of SEND to keep anonymized</source>
+        <source>Amount of SKX to keep anonymized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2161,13 +2161,13 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting SEND.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting SkullNodes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/send-project/send-project-translations</source>
+https://www.transifex.com/skullnodes-project/skullnodes-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2177,7 +2177,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the SEND network through a SOCKS5 proxy.</source>
+        <source>Connect to the SkullNodes network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2374,7 +2374,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
         <location line="+10"/>
         <location line="+1015"/>
         <location line="+93"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SEND network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SKX network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2429,7 +2429,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+27"/>
-        <source>0 SEND / 0 Rounds</source>
+        <source>0 SKX / 0 Rounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2666,7 +2666,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+114"/>
-        <source>URI cannot be parsed! This can be caused by an invalid SEND address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid SKX address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2774,7 +2774,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a SEND address (e.g. %1)</source>
+        <source>Enter a SKX address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2969,7 +2969,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the SEND debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the SkullNodes debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3181,7 +3181,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="-36"/>
-        <source>Welcome to the SEND RPC console.</source>
+        <source>Welcome to the SkullNodes RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3272,12 +3272,12 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SEND network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SKX network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SEND network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SKX network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3570,7 +3570,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 SEND</source>
+        <source>0 SKX</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3630,18 +3630,18 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="-165"/>
-        <source>If the custom fee is set to 1000 uSENDs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uSENDs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uSENDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uSKXs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uSKXs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uSKXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uSENDs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uSENDs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uSENDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uSKXs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uSKXs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uSKXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SEND transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SKX transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3774,7 +3774,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+632"/>
-        <source>Warning: Invalid SEND address</source>
+        <source>Warning: Invalid SKX address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3918,7 +3918,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>The SEND address to send the payment to</source>
+        <source>The SKX address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3972,7 +3972,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the SEND: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SEND network.</source>
+        <source>A message that was attached to the SEND: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SKX network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4007,7 +4007,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>SEND Core is shutting down...</source>
+        <source>SkullNodes Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4035,7 +4035,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>The SEND address to sign the message with</source>
+        <source>The SKX address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4077,17 +4077,17 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this SEND address</source>
+        <source>Sign the message to prove you own this SKX address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
-        <source>The SEND address the message was signed with</source>
+        <source>The SKX address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified SEND address</source>
+        <source>Verify the message to ensure it was signed with the specified SKX address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4202,7 +4202,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>SEND Core</source>
+        <source>SkullNodes Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4222,7 +4222,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>The SEND Core developers</source>
+        <source>The SkullNodes Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4935,7 +4935,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 SEND.</source>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 SKX.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4988,7 +4988,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
 </context>
 <context>
-    <name>send-core</name>
+    <name>skullnodes-core</name>
     <message>
         <location filename="../sendstrings.cpp" line="+12"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
@@ -5021,7 +5021,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. SEND Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. SkullNodes Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5046,7 +5046,7 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all SEND specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all SkullNodes specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5101,12 +5101,12 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in SEND/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in SKX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in SEND/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in SKX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5236,10 +5236,10 @@ https://www.transifex.com/send-project/send-project-translations</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use sendd, or the -server option to send-qt, you must set an rpcpassword in the configuration file:
+        <source>To use skullnodesd, or the -server option to skullnodes-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=sendrpc
+rpcuser=skullrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -5251,7 +5251,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SEND Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. SEND Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. SkullNodes Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5261,12 +5261,12 @@ for example: alertnotify=echo %%s | mail -s &quot;SEND Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 SEND.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 SKX.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 SEND.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 SKX.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5286,7 +5286,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SEND Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SEND Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SkullNodes Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5471,7 +5471,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SEND Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The SEND Core Developers</source>
+        <source>Copyright (C) 2015-%i The SkullNodes Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5561,7 +5561,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SEND Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of SEND Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of SkullNodes Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5626,7 +5626,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SEND Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Fee (in SEND/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in SKX/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5701,7 +5701,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SEND Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. SEND Core is shutting down.</source>
+        <source>Initialization sanity check failed. SkullNodes Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6476,7 +6476,7 @@ for example: alertnotify=echo %%s | mail -s &quot;SEND Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart SEND Core to complete</source>
+        <source>Wallet needed to be rewritten: restart SkullNodes Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

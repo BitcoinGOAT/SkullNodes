@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your SEND addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina SEND adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your SKX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina SKX adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your SEND addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina SEND adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your SKX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina SKX adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>SEND will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SENDs from being stolen by malware infecting your computer.</source>
-        <translation>SEND kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SENDs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>SkullNodes will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKXs from being stolen by malware infecting your computer.</source>
+        <translation>SkullNodes kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SKXs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SEND&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA SEND&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKX&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA SKX&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -232,8 +232,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The SEND address to sign the message with</source>
-        <translation>SEND adressen för signera meddelandet med</translation>
+        <source>The SKX address to sign the message with</source>
+        <translation>SKX adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SEND address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna SEND adress</translation>
+        <source>Sign the message to prove you own this SKX address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna SKX adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Ange</translation>
     </message>
     <message>
-        <source>The SEND address the message was signed with</source>
-        <translation>SEND adressen meddelandet blev signerat med</translation>
+        <source>The SKX address the message was signed with</source>
+        <translation>SKX adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SEND address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika SEND adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified SKX address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika SKX adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,12 +583,12 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Kärna</translation>
+        <source>Skullnodes Core</source>
+        <translation>SkullNodes Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a SEND address</source>
-        <translation>Skicka mynt till en SEND adress</translation>
+        <source>Send coins to a SKX address</source>
+        <translation>Skicka mynt till en SKX adress</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and send: URIs)</source>
@@ -603,24 +603,24 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About SEND Core</source>
-        <translation>Om SEND Kärnan</translation>
+        <source>&amp;About SkullNodes Core</source>
+        <translation>Om SkullNodes Kärnan</translation>
     </message>
     <message>
-        <source>Show information about SEND Core</source>
-        <translation>Visa information om SEND Kärnan</translation>
+        <source>Show information about SkullNodes Core</source>
+        <translation>Visa information om SkullNodes Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for SEND</source>
-        <translation>Ändra konfigurationsval för SEND</translation>
+        <source>Modify configuration options for SkullNodes</source>
+        <translation>Ändra konfigurationsval för SkullNodes</translation>
     </message>
     <message>
-        <source>Sign messages with your SEND addresses to prove you own them</source>
-        <translation>Signera meddelanden med din SEND adress för att visa att du äger dem</translation>
+        <source>Sign messages with your SKX addresses to prove you own them</source>
+        <translation>Signera meddelanden med din SKX adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified SEND addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika SEND adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified SKX addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika SKX adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>SEND Core client</source>
-        <translation>SEND kärn klient</translation>
+        <source>SkullNodes Core client</source>
+        <translation>SkullNodes kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -841,15 +841,15 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Kärna</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Kärna</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1106,8 +1106,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The SEND address to sign the message with</source>
-        <translation>SEND adressen för signera meddelandet med</translation>
+        <source>The SKX address to sign the message with</source>
+        <translation>SKX adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1130,16 +1130,16 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SEND address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna SEND adress</translation>
+        <source>Sign the message to prove you own this SKX address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna SKX adress</translation>
     </message>
     <message>
-        <source>The SEND address the message was signed with</source>
-        <translation>SEND adressen meddelandet blev signerat med</translation>
+        <source>The SKX address the message was signed with</source>
+        <translation>SKX adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SEND address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika SEND adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified SKX address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika SKX adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1181,8 +1181,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Kärna</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Kärna</translation>
     </message>
     </context>
 <context>
@@ -1365,7 +1365,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     </context>
 <context>
-    <name>send-core</name>
+    <name>skullnodes-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

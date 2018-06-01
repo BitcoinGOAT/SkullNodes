@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/send-config.h \
+           src/skullnodes-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/send-config.h \
+           src/config/skullnodes-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/send.moc \
+           src/qt/skullnodes.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/send-cli.cpp \
-           src/send-tx.cpp \
-           src/send.cpp \
+           src/skullnodes-cli.cpp \
+           src/skullnodes-tx.cpp \
+           src/skullnodes.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,7 +471,7 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/send.cpp \
+           src/qt/skullnodes.cpp \
            src/qt/sendstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_send.cpp \
+           src/test/test_skullnodes.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,21 +641,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/send.qrc src/qt/send_locale.qrc
+RESOURCES += src/qt/skullnodes.qrc src/qt/skullnodes_locale.qrc
 
-TRANSLATIONS += src/qt/locale/send_bg.ts \
-                src/qt/locale/send_de.ts \
-                src/qt/locale/send_en.ts \
-                src/qt/locale/send_es.ts \
-                src/qt/locale/send_fi.ts \
-                src/qt/locale/send_fr.ts \
-                src/qt/locale/send_it.ts \
-                src/qt/locale/send_ja.ts \
-                src/qt/locale/send_pl.ts \
-                src/qt/locale/send_pt.ts \
-                src/qt/locale/send_ru.ts \
-                src/qt/locale/send_sk.ts \
-                src/qt/locale/send_sv.ts \
-                src/qt/locale/send_vi.ts \
-                src/qt/locale/send_zh_CN.ts \
-                src/qt/locale/send_zh_TW.ts
+TRANSLATIONS += src/qt/locale/skullnodes_bg.ts \
+                src/qt/locale/skullnodes_de.ts \
+                src/qt/locale/skullnodes_en.ts \
+                src/qt/locale/skullnodes_es.ts \
+                src/qt/locale/skullnodes_fi.ts \
+                src/qt/locale/skullnodes_fr.ts \
+                src/qt/locale/skullnodes_it.ts \
+                src/qt/locale/skullnodes_ja.ts \
+                src/qt/locale/skullnodes_pl.ts \
+                src/qt/locale/skullnodes_pt.ts \
+                src/qt/locale/skullnodes_ru.ts \
+                src/qt/locale/skullnodes_sk.ts \
+                src/qt/locale/skullnodes_sv.ts \
+                src/qt/locale/skullnodes_vi.ts \
+                src/qt/locale/skullnodes_zh_CN.ts \
+                src/qt/locale/skullnodes_zh_TW.ts

@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your SEND addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun SEND osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your SKX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun SKX osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your SEND addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun SEND osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your SKX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun SKX osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,16 +164,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>SEND will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SENDs from being stolen by malware infecting your computer.</source>
-        <translation>SEND sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SENDien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>SkullNodes will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKXs from being stolen by malware infecting your computer.</source>
+        <translation>SkullNodes sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella SKXien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SEND&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki SENDisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKX&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki SKXisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,8 +227,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a Send Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä Send osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a SKX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä SKX osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -236,8 +236,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The SEND address to sign the message with</source>
-        <translation>SEND osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The SKX address to sign the message with</source>
+        <translation>SKX osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -268,8 +268,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SEND address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän SEND osoitteen</translation>
+        <source>Sign the message to prove you own this SKX address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän SKX osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,8 +288,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;BIP 38 salauksen avaus</translation>
     </message>
     <message>
-        <source>The SEND address the message was signed with</source>
-        <translation>SEND osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The SKX address the message was signed with</source>
+        <translation>SKX osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -575,12 +575,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Ydin</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a SEND address</source>
-        <translation>Lähetä kolikkoja SEND osoitteeseen</translation>
+        <source>Send coins to a SKX address</source>
+        <translation>Lähetä kolikkoja SKX osoitteeseen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and send: URIs)</source>
@@ -595,24 +595,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About SEND Core</source>
-        <translation>SEND Core &amp;ytimestä</translation>
+        <source>&amp;About SkullNodes Core</source>
+        <translation>SkullNodes Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about SEND Core</source>
-        <translation>Näytä tietoja SEND Ytimestä</translation>
+        <source>Show information about SkullNodes Core</source>
+        <translation>Näytä tietoja SkullNodes Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for SEND</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja SEND:lle</translation>
+        <source>Modify configuration options for SkullNodes</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja SkullNodes:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your SEND addresses to prove you own them</source>
+        <source>Sign messages with your SKX addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified SEND addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä SEND osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified SKX addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä SKX osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -643,8 +643,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a SEND: URI or payment request</source>
-        <translation>Avaa SEND: URI tai pyydä maksua</translation>
+        <source>Open a SKX: URI or payment request</source>
+        <translation>Avaa SKX: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -655,12 +655,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the SEND Core help message to get a list with possible SEND command-line options</source>
-        <translation>Näytä SEND Ydin apuviesti saadaksesi lista mahdollisista SEND komentolinja komennoista.</translation>
+        <source>Show the SkullNodes Core help message to get a list with possible SKX command-line options</source>
+        <translation>Näytä SkullNodes Ydin apuviesti saadaksesi lista mahdollisista SKX komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>SEND Core client</source>
-        <translation>SEND Ydin asiakasohjelma</translation>
+        <source>SkullNodes Core client</source>
+        <translation>SkullNodes Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -894,8 +894,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Ydin</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -913,12 +913,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to SEND Core.</source>
-        <translation>Tervetuloa SEND Ytimeen.</translation>
+        <source>Welcome to SkullNodes Core.</source>
+        <translation>Tervetuloa SkullNodes Ytimeen.</translation>
     </message>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Ydin</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1091,32 +1091,32 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 SEND</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 SEND</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 SKX</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 SKX</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 SEND</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 SEND</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 SKX</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 SKX</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SEND to anonymize 10000 SEND</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 SEND anonymoidaksesi 10000 SEND</translation>
+        <source>This option is the quickest and will cost about ~0.025 SKX to anonymize 10000 SKX</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 SKX anonymoidaksesi 10000 SKX</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SEND to anonymize 10000 SEND</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 SEND anonymoidaksesi 10000 SEND</translation>
+        <source>This option is moderately fast and will cost about 0.05 SKX to anonymize 10000 SKX</source>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 SKX anonymoidaksesi 10000 SKX</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 SEND per 10000 SEND you anonymize.</source>
-        <translation>0.1 per 10000 SEND, jotka anonymisoit.</translation>
+        <source>0.1 SKX per 10000 SKX you anonymize.</source>
+        <translation>0.1 per 10000 SKX, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1165,12 +1165,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start SEND after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä SEND kun kirjaudut sisään.</translation>
+        <source>Automatically start SkullNodes after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä SkullNodes kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start SEND on system login</source>
-        <translation>&amp;Aloita SEND järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start SkullNodes on system login</source>
+        <translation>&amp;Aloita SkullNodes järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1315,8 +1315,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the SEND RPC console.</source>
-        <translation>Tervetuloa SEND RPC konsoliin.</translation>
+        <source>Welcome to the SkullNodes RPC console.</source>
+        <translation>Tervetuloa SkullNodes RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1503,8 +1503,8 @@ Please check the address and try again.</source>
         <translation>ei</translation>
     </message>
     <message>
-        <source>0 SEND</source>
-        <translation>0 SEND</translation>
+        <source>0 SKX</source>
+        <translation>0 SKX</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1608,8 +1608,8 @@ Please check the address and try again.</source>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The SEND address to sign the message with</source>
-        <translation>SEND osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The SKX address to sign the message with</source>
+        <translation>SKX osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1632,12 +1632,12 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SEND address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän SEND osoitteen</translation>
+        <source>Sign the message to prove you own this SKX address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän SKX osoitteen</translation>
     </message>
     <message>
-        <source>The SEND address the message was signed with</source>
-        <translation>SEND osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The SKX address the message was signed with</source>
+        <translation>SKX osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1675,8 +1675,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Ydin</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Ydin</translation>
     </message>
     </context>
 <context>
@@ -1887,7 +1887,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>send-core</name>
+    <name>skullnodes-core</name>
     <message>
         <source>Error</source>
         <translation>Virhe</translation>

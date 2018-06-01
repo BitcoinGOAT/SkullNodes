@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your SEND addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your SKX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Toto sú vaše SEND adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your SEND addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše SEND adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your SKX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše SKX adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>SEND will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SENDs from being stolen by malware infecting your computer.</source>
-        <translation>SEND sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše SEND pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>SkullNodes will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SKXs from being stolen by malware infecting your computer.</source>
+        <translation>SkullNodes sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše SKX pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SEND&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY SEND &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SKX&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY SKX &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -247,8 +247,8 @@
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The SEND address to sign the message with</source>
-        <translation>Adresa SEND, ktorou chcete správu podpísať</translation>
+        <source>The SKX address to sign the message with</source>
+        <translation>Adresa SKX, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SEND address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto SEND adresy</translation>
+        <source>Sign the message to prove you own this SKX address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto SKX adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The SEND address the message was signed with</source>
-        <translation>SEND adresa, ktorou bola správa podpísaná</translation>
+        <source>The SKX address the message was signed with</source>
+        <translation>SKX adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SEND address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou SEND adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified SKX address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou SKX adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,12 +598,12 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Core</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Core</translation>
     </message>
     <message>
-        <source>Send coins to a SEND address</source>
-        <translation>Odoslať mince na adresu SEND</translation>
+        <source>Send coins to a SKX address</source>
+        <translation>Odoslať mince na adresu SKX</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and send: URIs)</source>
@@ -618,24 +618,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About SEND Core</source>
-        <translation>O SEND Core</translation>
+        <source>&amp;About SkullNodes Core</source>
+        <translation>O SkullNodes Core</translation>
     </message>
     <message>
-        <source>Show information about SEND Core</source>
-        <translation>Zobraziť informácie o SEND Core</translation>
+        <source>Show information about SkullNodes Core</source>
+        <translation>Zobraziť informácie o SkullNodes Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for SEND</source>
-        <translation>Zmeňte možnosti konfigurácie pre SEND</translation>
+        <source>Modify configuration options for SkullNodes</source>
+        <translation>Zmeňte možnosti konfigurácie pre SkullNodes</translation>
     </message>
     <message>
-        <source>Sign messages with your SEND addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy SEND, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your SKX addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy SKX, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified SEND addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými SEND adresami</translation>
+        <source>Verify messages to ensure they were signed with specified SKX addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými SKX adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the SEND Core help message to get a list with possible SEND command-line options</source>
-        <translation>Zobraziť pomocnú správu programu SEND Core a získajte zoznam možností príkazového riadka SEND</translation>
+        <source>Show the SkullNodes Core help message to get a list with possible SKX command-line options</source>
+        <translation>Zobraziť pomocnú správu programu SkullNodes Core a získajte zoznam možností príkazového riadka SKX</translation>
     </message>
     <message>
-        <source>SEND Core client</source>
-        <translation>SEND Core klient</translation>
+        <source>SkullNodes Core client</source>
+        <translation>SkullNodes Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -813,8 +813,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (send.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (send.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (skullnodes.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (skullnodes.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -908,15 +908,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Core</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Core</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1093,8 +1093,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The SEND address to sign the message with</source>
-        <translation>Adresa SEND, ktorou chcete správu podpísať</translation>
+        <source>The SKX address to sign the message with</source>
+        <translation>Adresa SKX, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1117,16 +1117,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SEND address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto SEND adresy</translation>
+        <source>Sign the message to prove you own this SKX address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto SKX adresy</translation>
     </message>
     <message>
-        <source>The SEND address the message was signed with</source>
-        <translation>SEND adresa, ktorou bola správa podpísaná</translation>
+        <source>The SKX address the message was signed with</source>
+        <translation>SKX adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SEND address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou SEND adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified SKX address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou SKX adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1164,8 +1164,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SEND Core</source>
-        <translation>SEND Core</translation>
+        <source>SkullNodes Core</source>
+        <translation>SkullNodes Core</translation>
     </message>
     </context>
 <context>
@@ -1260,7 +1260,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>send-core</name>
+    <name>skullnodes-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

@@ -1,4 +1,4 @@
-Source: send
+Source: skullnodes
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk> ***TODO***
@@ -22,11 +22,11 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.socialsend.io
+Homepage: http://www.skullnodes.io
 Vcs-Git: git://github.com
 Vcs-Browser: http://github.com/
 
-Package: sendd
+Package: skullnodesd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -39,10 +39,10 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides the daemon, sendd, and the CLI tool
- send-cli to interact with the daemon.
+ This package provides the daemon, skullnodesd, and the CLI tool
+ skullnodes-cli to interact with the daemon.
 
-Package: send-qt
+Package: skullnodes-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
@@ -55,4 +55,4 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides Send-Qt, a GUI for Send based on Qt.
+ This package provides SkullNodes-Qt, a GUI for SkullNodes based on Qt.
