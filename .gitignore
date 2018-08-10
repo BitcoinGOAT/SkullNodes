@@ -40,3 +40,4 @@ depends/i686-w64-mingw32
 depends/sources
 configure
 config.log
+src/config/skullnodes-config.h
