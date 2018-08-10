@@ -1,4 +1,4 @@
-Name "SkullNodes Core (-bit)"
+Name "SkullNodes Core (32-bit)"
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -10,11 +10,11 @@ SetCompressor /SOLID lzma
 !define URL https://www.skullnodes.io
 
 # MUI Symbol Definitions
-!define MUI_ICON "/home/fray/Downloads/SkullNodes-1.0.0.1/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/fray/Downloads/SkullNodes-1.0.0.1/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/usr/src/SkullNodes-stake/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/usr/src/SkullNodes-stake/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/home/fray/Downloads/SkullNodes-1.0.0.1/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/usr/src/SkullNodes-stake/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
@@ -22,13 +22,13 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "SkullNodes Core"
 !define MUI_FINISHPAGE_RUN $INSTDIR\skullnodes-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/fray/Downloads/SkullNodes-1.0.0.1/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/usr/src/SkullNodes-stake/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
 !include Sections.nsh
 !include MUI2.nsh
-!if "" == "64"
+!if "32" == "64"
 !include x64.nsh
 !endif
 
@@ -48,8 +48,8 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /home/fray/Downloads/SkullNodes-1.0.0.1/skullnodes-${VERSION}-win-setup.exe
-!if "" == "64"
+OutFile /usr/src/SkullNodes-stake/skullnodes-${VERSION}-win32-setup.exe
+!if "32" == "64"
 InstallDir $PROGRAMFILES64\SkullNodes
 !else
 InstallDir $PROGRAMFILES\SkullNodes
@@ -73,14 +73,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /home/fray/Downloads/SkullNodes-1.0.0.1/release/skullnodes-qt.exe
-    File /oname=COPYING.txt /home/fray/Downloads/SkullNodes-1.0.0.1/COPYING
-    File /oname=readme.txt /home/fray/Downloads/SkullNodes-1.0.0.1/doc/README_windows.txt
+    File /usr/src/SkullNodes-stake/release/skullnodes-qt.exe
+    File /oname=COPYING.txt /usr/src/SkullNodes-stake/COPYING
+    File /oname=readme.txt /usr/src/SkullNodes-stake/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /home/fray/Downloads/SkullNodes-1.0.0.1/release/skullnodesd.exe
-    File /home/fray/Downloads/SkullNodes-1.0.0.1/release/skullnodes-cli.exe
+    File /usr/src/SkullNodes-stake/release/skullnodesd.exe
+    File /usr/src/SkullNodes-stake/release/skullnodes-cli.exe
     SetOutPath $INSTDIR\doc
-    File /r /home/fray/Downloads/SkullNodes-1.0.0.1/doc\*.*
+    File /r /usr/src/SkullNodes-stake/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
@@ -107,7 +107,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "skullnodes" "URL Protocol" ""
-    WriteRegStr HKCR "skullNodes" "" "URL:SkullNodes"
+    WriteRegStr HKCR "skullnodes" "" "URL:SkullNodes"
     WriteRegStr HKCR "skullnodes\DefaultIcon" "" $INSTDIR\skullnodes-qt.exe
     WriteRegStr HKCR "skullnodes\shell\open\command" "" '"$INSTDIR\skullnodes-qt.exe" "%1"'
 SectionEnd
@@ -160,7 +160,7 @@ SectionEnd
 # Installer functions
 Function .onInit
     InitPluginsDir
-!if "" == "64"
+!if "32" == "64"
     ${If} ${RunningX64}
       ; disable registry redirection (enable access to 64-bit portion of registry)
       SetRegView 64
